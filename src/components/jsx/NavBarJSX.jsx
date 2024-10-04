@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BurguerIcon } from "../icons/BurguerIcon";
-import { XIcon } from "../icons/xIcon";
+import { CloseIcon } from "../icons/CloseIcon";
 
 export const NavBarJSX = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +19,7 @@ export const NavBarJSX = () => {
         <div className="sm:hidden flex justify-center items-center">
           <button type="button" onClick={() => setIsMenuOpen(!isMenuOpen)}>
             {isMenuOpen ? (
-              <XIcon className="text-right text-white size-6" />
+              <CloseIcon className="text-right text-white size-6" />
             ) : (
               <BurguerIcon className="text-right text-white size-6" />
             )}
