@@ -6,7 +6,7 @@ export const NavBarJSX = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#222222] fixed w-full top-0">
+    <header className="bg-[#222222] z-50 fixed w-full top-0">
       <nav
         className="flex justify-between 
       max-w-[810px] mx-auto px-6"
