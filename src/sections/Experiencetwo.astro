@@ -1,6 +1,6 @@
-<section class="w-[810px] mx-auto mt-[96px]">
+<section class="max-w-[810px] px-6 mx-auto pt-[96px]" id="experiencia">
   <!-- Title section -->
-  <h2 class="font-extrabold text-4xl text-center">
+  <h2 class="font-extrabold text-3xl sm:text-4xl text-center">
     <span
       class="bg-gradient-to-b from-[#FF8660]
        to-[#D5491D] bg-clip-text text-transparent"
@@ -9,15 +9,20 @@
   </h2>
 
   <!-- container experiencias -->
-  <div class="flex flex-col mt-[57px]">
+  <div class="flex flex-col mt-[57px] gap-12 md:mx-0">
     <!-- Item 1 -->
     <div class="space-y-6">
-      <div class="flex items-center justify-between">
+      <div
+        class="flex sm:items-center gap-2
+      justify-between sm:flex-row flex-col"
+      >
         <!-- Logo y title -->
-        <div class="flex gap-6">
+        <div class="flex gap-3 sm:gap-6">
           <img
+            class="w-6 h-6"
             src="/experience/google-logo.png"
             alt="Descripción del ícono"
+            loading="lazy"
           />
           <p class="font-bold text-xl text-white">
             Lead Software Engineer at Google
@@ -32,6 +37,59 @@
           Collaborating with a dynamic team of engineers, I contributed to the
           enhancement of search accuracy and efficiency, optimizing user
           experiences for millions of users worldwide.</span
+        >
+      </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="space-y-6">
+      <div class="flex items-center gap-1 justify-between flex-wrap">
+        <!-- Logo y title -->
+        <div class="flex gap-6">
+          <img
+            class="w-6 h-6"
+            src="/experience/apple-logo.png"
+            loading="lazy"
+            alt="Descripción del ícono"
+            loading="lazy"
+          />
+          <p class="font-bold text-xl text-white">
+            Junior Software Engineer at Apple
+          </p>
+        </div>
+        <p class="text-sm text-[#8491A0]">Jan 2016 - Dec 2017</p>
+      </div>
+      <div>
+        <span class="text-sm text-[#8491A0]"
+          >During my tenure at Apple, I held the role of Software Architect,
+          where I played a key role in shaping the architecture of
+          mission-critical software projects. Responsible for designing scalable
+          and efficient systems, I provided technical leadership to a
+          cross-functional team.</span
+        >
+      </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="space-y-6">
+      <div class="flex items-center gap-3 justify-between flex-wrap">
+        <!-- Logo y title -->
+        <div class="flex gap-6">
+          <img
+            class="w-6 h-6 object-fit"
+            src="/experience/meta-logo.png"
+            loading="lazy"
+            alt="Descripción del ícono"
+          />
+          <p class="font-bold text-xl text-white">Software Engineer at Meta</p>
+        </div>
+        <p class="text-sm text-[#8491A0]">Jan 2017 - Oct 2019</p>
+      </div>
+      <div>
+        <span class="text-sm text-[#8491A0]"
+          >At Meta, I served as a Software Engineer, focusing on the design and
+          implementation of backend systems for the social media giant's dynamic
+          platform. Working on projects that involved large-scale data
+          processing and user engagement features, I leveraged my expertise to
+          ensure seamless functionality and scalability.</span
         >
       </div>
     </div>
